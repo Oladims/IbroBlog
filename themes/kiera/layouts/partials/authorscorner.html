@@ -1,0 +1,15 @@
+<div class="card border-0 text-left my-3">
+    <div class="card-body">
+      <h3 class="card-title">👋</h3>
+      <p class="card-text"><a href="https://blog.ibro.ml">All <u class="text-underline">posts</u></a> ✍ with <span class="" style="color: #E83E8C;">❤</span> by <a class="" style="color: #E83E8C;" href="https://ibro.ml">Ibrahim Olufowora</a></p>
+      <p>   
+        <span>
+        {{ if .Site.Params.tags }}
+       {{ range $i, $t := .Site.Params.tags }}
+           {{ if $i }} {{ end }}
+           <a class="tag_pills mt-3 rounded-pill tags" href="{{ relLangURL ( printf "tags/%s" ( $t | urlize ) ) }}">{{ $t }}</a>
+       {{ end }}
+           {{ end }}
+    </span></p>
+    </div>
+  </div>

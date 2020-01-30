@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+<section id="list">
+
+    {{ $baseurl := .Site.BaseURL }}
+
+    {{ .Content }}
+
+    <div class="row">
+      <div class="col-md-8">
+        <div class="post">
+        {{ range (.Paginate (.Data.Pages.GroupByDate "January, 2006")).PageGroups  }}
+    
+        <!-- <h3>{{ .Key }}</h3> -->
+            {{ range .Pages }}
+                <div class="card border-0 my-3">
+                  <div class="card-body">
+                    <h4 class="card-title"><a href="{{ .Permalink }}">{{ if .Draft }}{{ T "draft" }}: {{end}}{{ .Title | markdownify }}</a></h4>
+                    <small class="card-text">{{.Content | safeHTML | truncate 200}}  </small>
+                     <div class="d-flex justify-content-between align-items-center mb-2">
+                         <em><a href="{{ .Permalink }}">→ Read more </a></em>
+                         <small class="">{{ T "readingTime" .ReadingTime }}</small>
+                     </div>
+                     <div>
+                         <div class="d-flex justify-content-between align-items-center ">
+                             <span>
+                                 {{ if .Params.tags }}
+                                {{ range $i, $t := .Params.tags }}
+                                    {{ if $i }} {{ end }}
+                                    <a class="tag_pills mt-3 rounded-pill tags" href="{{ relLangURL ( printf "tags/%s" ( $t | urlize ) ) }}">{{ $t }}</a>
+                                {{ end }}
+                                    {{ end }}
+                             </span>
+                                <time class="date-meta small font-weight-   bold">{{ .Date.Format "Jan 2, 2006" }}</time>
+                         </div>
+                     </div>
+                  </div>
+                </div>
+            {{ end }}
+            
+            {{ end }}
+        </div>
+      </div>
+      <div class="col-md-4">
+     {{ partial "authorscorner" .}}
+      </div>
+    </div>
+
+</section>
+
+{{ template "_internal/pagination.html" . }}
+
+{{ end }}

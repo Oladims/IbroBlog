@@ -1,0 +1,42 @@
+@import url(./styles-light.css);
+@import url(./styles-dark.css) (prefers-color-scheme: dark);
+
+.tag_pills{
+    background-color: #bbe1fa !important;
+    color: #2A2829;
+    font-size: 12px;
+    padding: 5px !important;
+    margin-top: 10px !important;
+}
+.showSidebar{
+    display: block !important;
+  }
+  .sidebar {
+    width: 250px;
+    z-index: 11;
+  }
+  .sidebar a {
+    color: #2A2829;
+    text-decoration: none;
+  }
+  .sidebar a:hover {
+    color: #bbe1fa;
+    background-color: #2A2829 !important;
+    text-decoration: none;
+  }
+  
+  .sidebar a.active {
+    background-color: #2A2829;
+    color: #bbe1fa;
+  }
+  .openBtn{
+    left: 250px;
+  }
+  a, a:hover{
+      text-decoration: none;
+  }
+  .articleBody p{
+    font-size: 16px !important;
+    line-height: 28px !important;
+    font-weight: 300 !important;
+  }

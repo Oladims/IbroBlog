@@ -1,0 +1,15 @@
+<!-- {{ $currentPage := . }}
+<nav>
+    <ul>
+        {{ range .Site.Menus.main }}
+        <li>
+            <a  href="https://ibro.ml">
+                <i class="fa-li fa {{ .Pre }} fa-lg"></i><span>Back to Home</span>
+            </a>
+            <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL | relURL }}">
+                <i class="fa-li fa {{ .Pre }} fa-lg"></i><span>{{ .Name }}</span>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</nav> -->

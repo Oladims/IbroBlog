@@ -1,0 +1,18 @@
+<aside class="mb-4">
+    <div>
+        <div class="my-2 d-flex justify-content-between align-items-center">
+        {{ if .Params.tags }}
+        <!-- <div> -->
+            <em class="tags">
+                {{ range $i, $t := .Params.tags }}
+                    {{ if $i }}{{ end }}
+                    <a class="tag_pills mt-3 rounded-pill tags" href="{{ relLangURL ( printf "tags/%s" ( $t | urlize ) ) }}">{{ $t }}</a>
+                {{ end }}
+            </em>
+        <!-- </div> -->
+        {{ end }}
+            <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </div>
+        <em class="post-date">{{ T "readingTime" .ReadingTime }}</em>
+    </div>
+</aside>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://blog.ibro.ml/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/feature-image/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/tags/feature-image/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/tags/layout/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/style-guide/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/image-content/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/tags/javascript/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/tags/csharp/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/tags/vue/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/tags/node/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/hugoisforlovers/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/tags/go/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/tags/golang/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/tags/hugo/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/tags/development/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/goisforlovers/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/tags/templates/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/tags/themes/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.ibro.ml/migrate-from-jekyll/</loc>
+  <lastmod>2020-01-23T10:16:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

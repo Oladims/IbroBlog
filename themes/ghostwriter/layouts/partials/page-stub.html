@@ -1,0 +1,18 @@
+<li class="post-stub">
+    <div class="card text-left">
+      <img class="card-img-top" src="holder.js/100px180/" alt="">
+      <div class="card-body">
+        <h4 class="card-title">Title</h4>
+        <p class="card-text">Body</p>
+      </div>
+    </div>
+    <a href="{{ .Permalink }}">
+        <h4 class="post-stub-title">{{ .Title }}</h4>
+        {{ if .Description }}
+            <p class="post-stub-description">{{ .Description }}</p>
+        {{ end }}
+        {{ with .Params.featured }}
+            <span class="post-stub-tag">Featured</span>
+        {{ end }}
+    </a>
+</li>

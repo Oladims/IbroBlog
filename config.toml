@@ -1,0 +1,19 @@
+baseurl = "/"
+title = "Ibro Blog"
+theme = "kiera"
+disqusShortname = "blog-ibro-ml"
+[Params]
+    tags = ["Js", "Vue", "Node", ".Net", "C#", "React"]
+    mainSections = ["post"]
+    intro = true
+    headline = "Ibrodev's Blog"
+    description = "Ibrahim Olufowora's Blog"
+    github = "https://github.com/oladims"
+    twitter = "https://twitter.com/holla_dimeji"
+    email = "olufoworaibrahim@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+    favicon = "https://ibro.ml/img/emojis/sharingan.png"
+[Permalinks]
+    post = "/:filename/"

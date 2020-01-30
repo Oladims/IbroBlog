@@ -1,0 +1,68 @@
+<meta charset="utf-8" />
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#bbe1fa"/>
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="IbroBlog">
+<meta name="apple-mobile-web-app-title" content="IbroBlog">
+<meta name="msapplication-starturl" content="/">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="{{ .Site.Params.description | default "The HTML5 Herald" }}" />
+<meta name="author" content="{{ .Params.Author | default .Site.Author.name }}" />
+<link rel="icon" href="https://ibro.ml/images/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="https://ibro.ml/images/icons/icon-192x192.png">
+<meta name="google-site-verification" content="xGBiWx3P8cDYqtXgcD3ntyqd8Slg_P7Yb745AtiP03Y" />
+<link
+rel="icon"
+type="image/png"
+href="https://ibro.ml/img/emojis/sharingan.png"
+hreflang="en-us"
+/>
+<meta
+property="title"
+content="IbroBlog | Ibrahim Olufowora Blog"
+/>
+<meta
+name="description"
+content="Ibrahim Olufowora Blog about Front-end developments and other programming topics"
+/>
+<meta
+name="keywords"
+content="design blog, web development articles, Front-end Blog, ibrodev Blog, ibroblog, Ibrahim Olufowora"
+/>
+<title>Ibrahim Olufowora | Front End Software Engineer</title>
+
+{{- with .OutputFormats.Get "rss" -}}
+	{{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
+{{- end -}}
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+{{ hugo.Generator -}}
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"publisher": {
+			"@type": "Organization",
+			"name": "ibroblog",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://ibro.ml/img/emojis/sharingan.png",
+				"width": 60,
+				"height": 60
+			}
+		},
+		"url": "https://blog.ibro.ml/",
+		"image": {
+			"@type": "ImageObject",
+			"url": "https://ibro.ml/img/emojis/sharingan.png",
+			"width": 200,
+			"height": 200
+		},
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://blog.ibro.ml/"
+		},
+		"description": "Ibrahim Olufowora's Blog"
+	}
+		</script>
