@@ -1,7 +1,21 @@
 {{ define "main" }}
 
-<section id="404">
-    <p>This is not the page you are looking for...</p>
+<section
+  id="404"
+  style="
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  "
+>
+  <h3>This is not the page you are looking for...</h3>
+  <em
+    >Back to
+    <a href="https://blog.ibrodev.com"
+      >All <u class="text-underline">posts</u></a
+    ></em
+  >
 </section>
 
 {{ end }}
