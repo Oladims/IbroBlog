@@ -1,5 +1,6 @@
 @import url(./styles-light.css);
 @import url(./styles-dark.css) (prefers-color-scheme: dark);
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 .tag_pills{
     background-color: #bbe1fa !important;
@@ -35,8 +36,10 @@
   a, a:hover{
       text-decoration: none;
   }
-  .articleBody p{
+  .articleBody p, ul, li, a{
+    font-family: 'Inconsolata', monospace !important;
     font-size: 16px !important;
     line-height: 28px !important;
-    font-weight: 300 !important;
+    font-weight: 500 !important;
+    color: #2A2829;
   }

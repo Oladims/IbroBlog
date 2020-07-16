@@ -1,6 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap'); */
+
 @font-face {
-  font-family: Rubik-Regular;
-  src: url(../fontawesome/webfonts/Rubik-Regular.ttf);
+font-family: 'Inconsolata', monospace;
+  /* font-family: Rubik-Regular; */
+  src: url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+  /* src: url(../fontawesome/webfonts/Rubik-Regular.ttf); */
 }
 @font-face {
   font-family: Gilroy-Medium;
@@ -26,7 +30,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: Rubik-Regular;
+font-family: 'Inconsolata', monospace;
   color: #333333;
   border: 5px solid #11CCEC !important;
 }
