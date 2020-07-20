@@ -5,9 +5,10 @@ tags = ['JavaScript', 'Node']
 description = 'As a Software developer, I am sure we‘ve all had to learn a new skill one time or the other either for work, personal project or self-development. When faced with a challenge while learning this new skill, How do you face those challenges? How do you react to those challenges? What did you gain from those challenges? Did you see it as a stepping stone or a major BLOCKER that you can’t overcome?'
 +++
 
-![Image for post](https://miro.medium.com/proxy/1*CFeeiP9bD0riPqSIfCzX6A.jpeg)
 
 > As a Software developer, I am sure we‘ve all had to learn a new skill one time or the other either for work, personal project or self-development. When faced with a challenge while learning this new skill, How do you face those challenges? How do you react to those challenges? What did you gain from those challenges? Did you see it as a stepping stone or a major BLOCKER that you can’t overcome?
+
+![Image for post](https://miro.medium.com/proxy/1*CFeeiP9bD0riPqSIfCzX6A.jpeg)
 
 In this post, I will be talking about my most recent challenging learning experience and how I turned it to a stepping stone which has not only made me a better software developer but also a better version of my previous self😎😎😎 .
 

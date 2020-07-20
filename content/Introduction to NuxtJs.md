@@ -5,13 +5,13 @@ tags = ['JavaScript', 'Vue', 'Nuxt', 'Node']
 description = 'Nuxt is a progressive framework based on Vue.js to create modern web applications. It is based on Vue.js official libraries (vue, vue-router and vuex) and powerful development tools (webpack, Babel and PostCSS). Incrementally adoptable, it can be used to create from static landing pages to complex enterprise ready web applications'
 +++
 
-### What is NuxtJs?
+#### What is NuxtJs?
 
 > _Nuxt is a progressive framework based on Vue.js to create modern web applications. It is based on Vue.js official libraries (vue, vue-router and vuex) and powerful development tools (webpack, Babel and PostCSS). Incrementally adoptable, it can be used to create from static landing pages to complex enterprise ready web applications._
 
 ---
 
-### Why Nuxt?
+#### Why Nuxt?
 
 - Write Vue Files (\*.vue)
 - Server-Side Rendering
@@ -29,23 +29,23 @@ Nuxt.js includes the following in order to create a rich web application develop
 
 Nuxt.js can be used in two different ways (**_Server Rendering_** and **_Single Page Applications_**):
 
-### <u>Server-Side Rendering (Universal SSR)</u>
+#### <u>Server-Side Rendering (Universal SSR)</u>
 
 In _SSR_, components are _rendered_ into HTML strings on the _server_, _sent_ to the browser, and finally "hydrate" the static markup into a fully interactive app on the client.
 
 In **SSR** majority of your app's code runs on both the _server_ and the _client_.
 
-### <u>Single Page Applications (SPA)</u>
+#### <u>Single Page Applications (SPA)</u>
 
 A single-page application is an app that works inside a browser and does not require page reloading during use. These are, for instance: Gmail, Google Maps, Facebook or GitHub.
 
-### <u>Static Generated (Pre Rendering)</u>
+#### <u>Static Generated (Pre Rendering)</u>
 
 The big innovation of Nuxt.js comes with the `nuxt generate` command.
 
 When building your application, it will generate the HTML for every one of your routes and store it in a file in preparation for a web crawler to see it. This is mostly used to boost SEO on your web application.
 
-## Installing NuxtJs
+#### Installing NuxtJs
 
 Nuxt.js is very easy to get started with. A new nuxt project only needs the **nuxt** dependency.
 
