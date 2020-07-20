@@ -50,4 +50,4 @@ The first thing that changed after reading this tweet was my perspective, then I
 
 Every challenge you face today is your twenty-five miles to achieving your thousand-mile goal.
 
-## Thank you ….
+#### Thank you ….
