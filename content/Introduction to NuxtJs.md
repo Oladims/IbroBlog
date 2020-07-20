@@ -56,7 +56,7 @@ Make sure you have npx installed. However, npx is installed automatically since 
 Using `npm -v` command to check the version you have installed.
 
 ```bash
-$ npx create nuxt-app <project-name>
+$ npx create-nuxt-app <project-name>
 ```
 
 Or with [yarn](https://yarnpkg.com/en/):
