@@ -3,9 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 .tag_pills{
-    background-color: #bbe1fa !important;
-    color: #2A2829;
-    font-size: 12px;
+    /* background-color: #6495ed !important;
+    color: #2A2829; */
+    background-color: hsl(188.8,86.6%,49.6%) !important;
+    color: hsl(188.8,86.6%,19.6%) !important;
+    font-size: 14px !important;
     padding: 5px !important;
     margin-top: 10px !important;
 }
@@ -36,10 +38,18 @@
   a, a:hover{
       text-decoration: none;
   }
-  .articleBody p, ul, li, a{
-    font-family: 'Inconsolata', monospace !important;
-    font-size: 16px !important;
-    line-height: 28px !important;
-    font-weight: 500 !important;
-    color: #2A2829;
+
+  /* pre{
+    color: hsl(218.5,79.2%,66.1%) !important;
+    background-color: hsl(218.5,79.2%,36.1%) !important;
+    padding: 5px;
+    border-radius: 4px;
+    width: max-content;
+  } */
+  pre{
+    color: hsl(188.8,86.6%,49.6%) !important;
+    background-color: hsl(188.8,86.6%,19.6%) !important;
+    padding: 5px;
+    border-radius: 4px;
+    width: max-content;
   }

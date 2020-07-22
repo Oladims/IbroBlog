@@ -16,7 +16,7 @@
                 <div class="card border-0 my-3">
                   <div class="card-body">
                     <h4 class="card-title font-weight-bold"><a href="{{ .Permalink }}">{{ if .Draft }}{{ T "draft" }}: {{end}}{{ .Title | markdownify }}</a></h4>
-                    <small class="card-text" style="font-size: 14px !important;">{{.Content | safeHTML | truncate 200}}  </small>
+                    <small class="card-text" style="font-size: 14px !important;">{{.Description}}  </small>
                      <div class="d-flex justify-content-between align-items-center mb-2">
                          <em><a href="{{ .Permalink }}">→ Read more </a></em>
                          <small class="">{{ T "readingTime" .ReadingTime }}</small>
